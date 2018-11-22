@@ -88,7 +88,38 @@ sum = nr1+nr2;
 System.out.println("Sum=" +sum);
 
 }
+double nr1, nr2, sum;{
+  Scanner sc = new Scanner(System.in);
 
+  System.out.println("Enter first number");
+  nr1 = (sc.nextDouble));
+
+  System.out.println("Enter second number");
+  nr2 = (sc.nextDouble));
+
+  sum = nr1-nr2;
+
+  System.out.println("sum="+sum);
+}
+
+double nr1, nr2, total;{
+
+  System.out.println("Enter first number");
+
+  Scanner sc = new Scanner(System.in);
+
+  nr1 = (sc.nextDouble));
+
+  System.out.println("Enter second number");
+
+  nr2 = (sc.nextDouble));
+
+  total = nr1*nr2;
+
+  System.out.println("Total sum="+total);
+}
+
+}
 }
 }
 
