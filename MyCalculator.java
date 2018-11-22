@@ -89,6 +89,21 @@ System.out.println("Sum=" +sum);
 
 }
 
+double nr1, nr2, totalSum;
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter first number");
+
+nr1 = (sc.nextDouble);
+
+System.out.println("Enter second number");
+
+nr2 = (sc.nextDouble);
+
+totalSum = nr1/nr2;
+
+System.out.println("total sum"+totalSum);
+
 }
 }
 
