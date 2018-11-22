@@ -56,7 +56,7 @@ public class MyCalculator{
                     output = num1 - num2 - num3;
                     break;
 
-                    case '*':
+        .            case '*':
                     output = num1 * num2 * num3;
                     break;
 
@@ -71,4 +71,27 @@ public class MyCalculator{
                   System.out.println(num1+" "+operator+" "+num2+" "+operator+" "+num3+" = "+output);
               }
   }
+  double nr1, nr2, sum;{
+	  Scanner sc = new Scanner(System.in);
+
+  nr1 = (sc.nextDouble());
+  System.out.println("Enter first number");
+
+
+
+System.out.println("Enter second number");
+
+nr2 = (sc.nextDouble());
+
+sum = nr1+nr2;
+
+System.out.println("Sum=" +sum);
+
+}
+
+}
+}
+
+}
+
 }
